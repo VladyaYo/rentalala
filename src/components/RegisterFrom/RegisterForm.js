@@ -1,112 +1,54 @@
 import React, { useState } from 'react';
-import { Form, Input, Button, Radio, Tooltip, Select } from 'antd';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import { Form } from 'antd';
 
-import { QuestionCircleOutlined } from '@ant-design/icons';
-import { InfoCircleOutlined } from '@ant-design/icons';
+import './style.css'
 
-const RegisterForm = () => {
+import InputText from "../inputs/InputText/InputText";
+import InputEmail from "../inputs/InputEmail/InputEmail";
+import InputPhone from "../inputs/InputPhone/InputPhone";
+import InputPassword from "../inputs/InputPassword/InputPassword";
+import FormButton from "../Button/FormButton";
+import Heading2 from "../typography/Heading2/Heading2";
+
+const RegisterForm = ({ className, mode }) => {
     const onFinish = values => {
         console.log('Received values of form: ', values);
     };
     const [form] = Form.useForm();
 
-    const { Option } = Select;
 
-    const prefixSelector = (
-        <Form.Item name="prefix" noStyle>
-            <Select style={{ width: 70 }}>
-                <Option value="86">+86</Option>
-                <Option value="87">+87</Option>
-            </Select>
-        </Form.Item>
+    const classNames = classnames(
+        'form',
+        {
+            [`form--${mode}`]:Boolean(mode),
+        },
+        className
     );
-
     return (
         <Form
+            className={classNames}
             form={form}
             layout="vertical"
         >
-            <Form.Item
-                name="Full Name"
-                label={
-                    <span>Full Name</span>
-                }
-                rules={[{ required: true, message: 'Please input your Full Name!', whitespace: true }]}
-            >
-                <Input />
-            </Form.Item>
-            <Form.Item
-                name="Stage Name"
-                label={
-                    <span>Stage Name</span>
-                }
-                rules={[{ required: true, message: 'Please input your Stage Name!', whitespace: true }]}
-            >
-                <Input />
-            </Form.Item>
-            <Form.Item
-                name="email"
-                label="E-mail"
-                rules={[
-                    {
-                        type: 'email',
-                        message: 'The input is not valid E-mail!',
-                    },
-                    {
-                        required: true,
-                        message: 'Please input your E-mail!',
-                    },
-                ]}
-            >
-                <Input />
-            </Form.Item>
-            <Form.Item
-                name="phone"
-                label="Phone Number"
-                rules={[{ required: true, message: 'Please input your phone number!' }]}
-            >
-                <Input addonBefore={prefixSelector} style={{ width: '100%' }} />
-            </Form.Item>
-            <Form.Item
-                name="password"
-                label="Password"
-                rules={[
-                    {
-                        required: true,
-                        message: 'Please input your password!',
-                    },
-                ]}
-                hasFeedback
-            >
-                <Input.Password />
-            </Form.Item>
-            <Form.Item
-                name="confirm"
-                label="Confirm Password"
-                dependencies={['password']}
-                hasFeedback
-                rules={[
-                    {
-                        required: true,
-                        message: 'Please confirm your password!',
-                    },
-                    ({ getFieldValue }) => ({
-                        validator(rule, value) {
-                            if (!value || getFieldValue('password') === value) {
-                                return Promise.resolve();
-                            }
-                            return Promise.reject('The two passwords that you entered do not match!');
-                        },
-                    }),
-                ]}
-            >
-                <Input.Password />
-            </Form.Item>
-            <Form.Item>
-                <Button type="primary">Submit</Button>
-            </Form.Item>
+            <Heading2 align="center">Register as Artist</Heading2>
+            <InputText name="Full Name" mode="text"/>
+            <InputText name="Stage Name" mode="text" />
+            <InputEmail mode="email"/>
+            <InputPhone mode="phone"/>
+            <InputPassword mode="password" confirm={true} />
+            <FormButton mode="submit" >Complete all info now</FormButton>
+            <FormButton mode="submit" >Complete all info later</FormButton>
         </Form>
     );
 };
-
+RegisterForm.deafultProps = {
+    mode:'registration',
+    className: '',
+};
+RegisterForm.propTypes = {
+    mode: PropTypes.oneOf(['login','registration']),
+    className: PropTypes.string,
+};
 export default RegisterForm;

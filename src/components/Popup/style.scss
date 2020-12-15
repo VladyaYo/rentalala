@@ -1,0 +1,23 @@
+.popup{
+  width: 90%;
+  max-width: 754px;
+  margin: 130px auto 50px;
+  padding: 56px 150px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  right: 0;
+  //&:before{
+  //  z-index: -1;
+  //  content: '';
+  //  width: 100vw;
+  //  height: 100vh;
+  //  position: fixed;
+  //  top: 0;
+  //  left: 0;
+  //  background-color: #C4C4C4;
+  //  opacity: 0.6;
+  //}
+}

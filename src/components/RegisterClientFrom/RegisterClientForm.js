@@ -42,11 +42,11 @@ const RegisterClientForm = ({ className, mode }) => {
         </Form>
     );
 };
-RegisterForm.deafultProps = {
+RegisterClientForm.deafultProps = {
     mode:'registration',
     className: '',
 };
-RegisterForm.propTypes = {
+RegisterClientForm.propTypes = {
     mode: PropTypes.oneOf(['login','registration']),
     className: PropTypes.string,
 };

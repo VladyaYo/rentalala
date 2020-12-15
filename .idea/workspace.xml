@@ -1,22 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="" />
+    <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/FormButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/FormButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lbWgr5zHP0stri5G6jO2UJFNx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/inputs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/inputs" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -40,11 +139,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607866385126</updated>
-      <workItem from="1607866387211" duration="181000" />
+      <workItem from="1607866387211" duration="52595000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="12" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607870627389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="425" y="12" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1607870627389" />
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607868868452">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607868868452" />
+    <state x="224" y="182" key="EditFileWatcherDialog" timestamp="1607867610639">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="224" y="182" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1607867610639" />
+    <state x="208" y="133" key="IDE.errors.dialog" timestamp="1607882008861">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="133" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1607882008861" />
+    <state x="435" y="0" key="RollbackChangesDialog" timestamp="1607895409759">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="435" y="0" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607895409759" />
+    <state x="239" y="99" width="962" height="702" key="find.popup" timestamp="1607929483567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="239" y="99" width="962" height="702" key="find.popup/0.0.1440.900/-271.-1080.1920.1080@0.0.1440.900" timestamp="1607929483567" />
   </component>
 </project>

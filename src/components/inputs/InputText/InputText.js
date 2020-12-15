@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-
-import './style.css';
 import {Form, Input} from "antd";
 
-const InputName = ({children, mode, className, ...props }) =>{
+import './style.css';
+const InputText = ({children, name, mode, className, ...props }) =>{
     const classNames = classnames(
         'input',
         {
@@ -14,28 +13,27 @@ const InputName = ({children, mode, className, ...props }) =>{
         className
     );
 
-    const mode =
-
     return(
         <Form.Item
-            name="Full Name"
-            label={
-                <span>Full Name</span>
-            }
-            rules={[{ required: true, message: 'Please input your Full Name!', whitespace: true }]}
+            className={classNames}
+            name={name}
+            label={<span>{name}</span>}
+            rules={[{ required: true, message: `Please input your ${name}!`, whitespace: true }]}
         >
             <Input />
         </Form.Item>
     )
 
 };
-InputName.deafultProps = {
+InputText.deafultProps = {
     mode:'primary',
+    name:'Full Name',
     className: '',
 };
-InputName.propTypes = {
+InputText.propTypes = {
     counter: PropTypes.number,
     mode: PropTypes.oneOf(['primary','success','danger']),
+    name: PropTypes.oneOf(['Full Name', 'Stage Name']),
     className: PropTypes.string,
 };
-export default InputName;
+export default InputText;

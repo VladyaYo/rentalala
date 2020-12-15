@@ -1,0 +1,44 @@
+@import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+.topProfile {
+  background-color: #FCFCFC;
+  .container {
+    @include flex($row, $btwen, $start);
+    padding: 30px 0;
+    .side {
+      &.user {
+        @include flex($row, $btwen, $start);
+      }
+    }
+    .photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-color: $lightGray;
+      margin-right: 20px;
+    }
+    .line {
+      @include flex($row, $btwen, $center);
+    }
+    .rate {
+      margin: 15px 0 21px;
+    }
+    .stats {
+      margin-top: 40px;
+      margin-bottom: 12px;
+      .item {
+        h3 {
+          font-size: 36px;
+        }
+      }
+    }
+    button {
+      width: 100%;
+      min-height: 39px;
+      margin-bottom: 12px;
+      background-color: $lightGray;
+      border: none;
+      color: $gray;
+    }
+  }
+}

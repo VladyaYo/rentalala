@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import classnames from "classnames";
 
 import "./style.css";
-import { Form, Input } from "antd";
+import {Form, Input, Select} from "antd";
 
-const InputEmail = ({ children, name, mode, className, ...props }) => {
+const InputPhone = ({ children, name, mode, className, ...props }) => {
   const classNames = classnames(
     "input",
     {
@@ -14,24 +14,26 @@ const InputEmail = ({ children, name, mode, className, ...props }) => {
     className
   );
 
+    const { Option } = Select;
+
+    const prefixSelector = (
+        <Form.Item name="prefix" noStyle>
+            <Select style={{ width: 80 }}>
+                <Option value="1">+1</Option>
+                <Option value="3 80">+3 80</Option>
+            </Select>
+        </Form.Item>
+    );
+
   return (
-    <Form.Item
-      className={classNames}
-      name="email"
-      label={<span> E-mail </span>}
-      rules={[
-        {
-          type: "email",
-          message: "The input is not valid E-mail!"
-        },
-        {
-          required: true,
-          message: "Please input your E-mail!"
-        }
-      ]}
-    >
-      <Input />
-    </Form.Item>
+      <Form.Item
+          className={classNames}
+          name="phone"
+          label="Phone Number"
+          rules={[{ required: true, message: 'Please input your phone number!' }]}
+      >
+          <Input addonBefore={prefixSelector} style={{ width: '100%' }} />
+      </Form.Item>
   );
 };
-export default InputEmail;
+export default InputPhone;

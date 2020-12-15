@@ -1,25 +1,26 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import classnames from "classnames";
+import { Form, Button } from "antd";
 
 import "./style.css";
-import { Form, Input } from "antd";
-
-const Button = ({ children, name, mode, className, ...props }) => {
+const FormButton = ({ children, mode, className, ...props }) => {
   const classNames = classnames(
-    "input",
+    "button",
     {
-      [`input--${mode}`]: Boolean(mode)
+        [`button--${mode}`]:Boolean(mode),
     },
     className
   );
 
   return (
-      <Form.Item >
+      <Form.Item
+          className={classNames}
+      >
           <Button type="primary" htmlType="submit">
               {children}
           </Button>
       </Form.Item>
   );
 };
-export default Button;
+export default FormButton;
