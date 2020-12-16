@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 import RegisterForm from "../RegisterFrom/RegisterForm";
 import LoginForm from "../LoginForm/LoginForm";
-import RegisterClientForm from "../RegisterClientFrom/RegisterClientForm";
+import RegisterClientForm from "../RegisterClientForm/RegisterClientForm";
 
 import "./style.css";
 

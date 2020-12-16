@@ -1,0 +1,12 @@
+.layout--events {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 130px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*# sourceMappingURL=style.css.map */

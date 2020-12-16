@@ -1,0 +1,11 @@
+@import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+.layout{
+  &--events{
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 130px;
+    margin: auto;
+@include flex($row,$btwen,$start);
+  }
+}

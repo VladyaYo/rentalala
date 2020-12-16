@@ -74,7 +74,6 @@ const TopProfile = () => (
                 </div>
                     <Button type="primary">My subscribers</Button>
                     <Button type="primary">My events</Button>
-
             </div>
         </div>
     </section>

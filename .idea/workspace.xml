@@ -2,75 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/ProfileEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/ProfileFeedback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/ProfileVideos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/FormButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/FormButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Popup/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/RegisterClientForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/partials/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/partials/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/partials/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/partials/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +65,14 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/inputs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/inputs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/inputs" />
     </key>
   </component>
@@ -139,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607866385126</updated>
-      <workItem from="1607866387211" duration="52595000" />
+      <workItem from="1607866387211" duration="53483000" />
+      <workItem from="1608103447674" duration="9901000" />
     </task>
     <servers />
   </component>

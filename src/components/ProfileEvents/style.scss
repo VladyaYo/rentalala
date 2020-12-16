@@ -1,0 +1,33 @@
+@import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+.events{
+    max-width: 850px;
+    @include flex($col,$btwen,$start);
+  .head{
+    width: 100%;
+    @include flex($row,$btwen,$start);
+    margin-bottom: 20px;
+  }
+  .cards{
+    width: 100%;
+    @include flex($row,$btwen,$start);
+  }
+    .card{
+      width: calc(33% - 15px);
+      img{
+        max-height: 300px;
+      }
+      h5{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color:#828282;
+      }
+      p{
+        margin: 10px 0 5px;
+      }
+
+
+    }
+
+}

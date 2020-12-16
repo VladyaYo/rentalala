@@ -1,0 +1,40 @@
+.videos {
+  max-width: 850px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.videos .head {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0 15px;
+}
+.videos .cards {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.videos .card {
+  width: calc(33% - 15px);
+  margin: 15px 0 0;
+}
+.videos .card img {
+  max-height: 300px;
+}
+.videos .card h5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+}
+.videos .card p {
+  margin: 10px 0 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

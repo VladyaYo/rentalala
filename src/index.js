@@ -8,7 +8,8 @@ import Header from "./components/Header/Header";
 import TopProfile from "./components/TopProfile/TopProfile";
 import Footer from "./components/Footer/Footer";
 import AboutTopProfile from './components/AboutTopProfile/AboutTopProfile';
-// import Popup from "./components/Popup/Popup";
+import Popup from "./components/Popup/Popup";
+import ProfileLayout from "./components/ProfileLayout/ProfileLayout";
 
 const App = () => {
     return  (
@@ -16,6 +17,7 @@ const App = () => {
             <Header/>
             <TopProfile/>
             <AboutTopProfile/>
+            <ProfileLayout mode="events"/>
             {/*<Popup type="registerForm"/>*/}
             {/*<Popup type="loginForm"/>*/}
             {/*<Popup type="registerClientForm"/>*/}
