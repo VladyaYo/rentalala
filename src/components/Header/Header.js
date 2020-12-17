@@ -1,11 +1,15 @@
 import React from 'react';
 import classnames from 'classnames';
-import { Input, Menu, Dropdown  } from 'antd';
+import { Button, Input, Menu, Dropdown  } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 
 
 import Logo from '../../components/Logo/Logo'
 import './style.css'
+import {BrowserRouter as Router, Link} from "react-router-dom";
+import Popup from "../Popup/Popup";
+
+
 
 const { Search } = Input;
 
@@ -34,18 +38,37 @@ const lang = (
 const user = (
     <Menu>
         <Menu.Item>
-            <a rel="noopener noreferrer" href="#en">
-               Profile
-            </a>
+            <Popup type="registerForm"/>
+
         </Menu.Item>
         <Menu.Item>
-            <a rel="noopener noreferrer" href="#de">
-                News
-            </a>
+            <Popup type="registerClientForm"/>
+        </Menu.Item>
+        <Menu.Item>
+            <Popup type="loginForm"/>
         </Menu.Item>
         <Menu.Item danger>
             <a rel="noopener noreferrer" href="#ru">
                 Log Out
+            </a>
+        </Menu.Item>
+    </Menu>
+);
+const mainMenu = (
+    <Menu>
+        <Menu.Item>
+            <a rel="noopener noreferrer" href="/artist-profile">
+                ArtistProfile
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a rel="noopener noreferrer" href="user/profile">
+                UserProfile
+            </a>
+        </Menu.Item>
+        <Menu.Item danger>
+            <a rel="noopener noreferrer" href="#ru">
+                ArtistProfile
             </a>
         </Menu.Item>
     </Menu>
@@ -66,8 +89,20 @@ const Header = ({ className, mode }) => {
         >
             <div className="container">
                 <div className="side">
-                    <Logo/>
+                    <Link to="/"><Logo/></Link>
+                    <ul className="mainMenu">
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/profile-artist">Artist Profile</Link>
+                        </li>
+                        <li>
+                            <Link to="/profile-client">Client profile</Link>
+                        </li>
+                    </ul>
                     <Search className="search" placeholder="Search for..." onSearch={onSearch} />
+
                 </div>
                 <div className="side">
                     <Dropdown className="dropDown" overlay={lang}>

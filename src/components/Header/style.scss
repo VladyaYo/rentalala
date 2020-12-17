@@ -1,7 +1,16 @@
 @import '../../styles/partials/vars';
+@import '../../styles/partials/flex';
 
 header{
   position: sticky;
+  .mainMenu{
+    @include flex($row,$btwen,$center);
+    margin: 0 20px;
+    li{
+      margin: 0 10px;
+    }
+
+  }
   .container{
    padding: 26px 0;
     display: flex;

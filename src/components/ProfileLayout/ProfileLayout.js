@@ -20,10 +20,11 @@ const ProfileLayout = ({mode, className, ...props }) =>{
     return(
         <div className={classNames} {...props}>
             <div className="side">
-           <ProfileEvents/>
-           <ProfileVideos/>
+                {mode  === 'events' && <ProfileEvents/>  }
+                {/*<ProfileEvents/>*/}
+                <ProfileVideos/>
             </div>
-           <ProfileFeedback/>
+            <ProfileFeedback/>
         </div>
     )
 

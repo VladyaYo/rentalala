@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/ProfileEvents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileEvents/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/ProfileFeedback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/ProfileVideos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileVideos/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/ProfileArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Popup/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/RegisterClientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/RegisterClientForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientFrom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Profiles" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/inputs" />
     </key>
@@ -99,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607866385126</updated>
       <workItem from="1607866387211" duration="53483000" />
-      <workItem from="1608103447674" duration="9901000" />
+      <workItem from="1608103447674" duration="18628000" />
     </task>
     <servers />
   </component>
