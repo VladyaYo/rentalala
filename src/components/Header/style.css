@@ -1,5 +1,8 @@
 header {
   position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 20;
 }
 header .mainMenu {
   display: flex;

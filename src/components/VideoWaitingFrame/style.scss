@@ -1,0 +1,21 @@
+@import "../../styles/partials/flex";
+.inputVideoBlock {
+  h3{
+    margin-bottom: 10px;
+  }
+  .video {
+    width: 100%;
+    margin: 15px auto;
+    .videoFrame {
+      width: 100%;
+    }
+  }
+  .bgChoice{
+    @include flex($row,$start,$start);
+    .item{
+      max-width: 116px;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}

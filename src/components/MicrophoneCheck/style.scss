@@ -1,0 +1,25 @@
+.microphone{
+  .ant-slider-mark{
+display: none;
+  }
+  .ant-slider-dot{
+    border: none;
+    background-color: #F2F2F2;
+  }
+  .ant-slider-track{
+    background-color: transparent!important;
+  }
+  .ant-slider-dot-active{
+    border: solid 2px #EB614D;
+    background-color: #EB614D;
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+  }
+  .ant-slider-rail{
+    background-color: transparent!important;
+  }
+  .ant-slider-handle{
+    display: none;
+  }
+}

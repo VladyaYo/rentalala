@@ -1,26 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import "antd/dist/antd.css";
 import "./styles/style.css";
 
 import Header from "./components/Header/Header";
-import ProfileArtist from "./components/Profiles/ProfileArtist/ProfileArtist";
+import ProfileArtist from "./components/Profiles/ArtistProfile/ProfileArtist";
 import ClientProfile from "./components/Profiles/ClientProfile/ClientProfile";
 import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
+import WaitingRoom from "./components/WaitingRoom/WaitingRoom";
 
 const App = () => {
   return (
     <Router>
-      <Header />
+      <Header/>
       <Switch>
         <Route path="/profile-artist" component={ProfileArtist} />
         <Route path="/profile-client" component={ClientProfile} />
+        <Route path="/waiting-room" component={WaitingRoom}/>
       </Switch>
-
-      <Footer />
+      <Footer/>
     </Router>
   );
 };

@@ -2,25 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/ProfileArtist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/SpeakersCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/VideoWaitingFrame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WaitingRoom/WaitingRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WaitingRoom/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WaitingRoom/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WaitingRoom/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/ProfileArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/ProfileArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/MicrophoneCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +102,9 @@
       <option name="presentableId" value="Default" />
       <updated>1607866385126</updated>
       <workItem from="1607866387211" duration="53483000" />
-      <workItem from="1608103447674" duration="18628000" />
+      <workItem from="1608103447674" duration="20808000" />
+      <workItem from="1608714618042" duration="91000" />
+      <workItem from="1608716491532" duration="13477000" />
     </task>
     <servers />
   </component>
@@ -115,9 +127,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="224" y="182" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1607867610639" />
-    <state x="208" y="133" key="IDE.errors.dialog" timestamp="1607882008861">
+    <state x="208" y="133" key="IDE.errors.dialog" timestamp="1608723987615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="133" key="IDE.errors.dialog/0.0.1440.900/-271.-1080.1920.1080@0.0.1440.900" timestamp="1608723987615" />
     <state x="208" y="133" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1607882008861" />
     <state x="435" y="0" key="RollbackChangesDialog" timestamp="1607895409759">
       <screen x="0" y="0" width="1440" height="900" />

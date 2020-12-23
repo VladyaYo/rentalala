@@ -1,0 +1,46 @@
+@import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+.waitingRoom{
+  background-color: #E5E5E5;
+  display: block;
+  padding: 40px;
+  h5{
+    font-weight: bold;
+    color:$basicGray;
+  }
+  h3{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color:$black;
+  }
+  .ant-dropdown-link{
+color:$basicDarkGray
+  }
+  .heading{
+    max-width: 590px;
+    width: 90%;
+    margin: 10px auto 16px;
+    color:$black
+  }
+  .mainCard{
+    max-width: 590px;
+    width: 90%;
+    margin: auto;
+    .line{
+      width: 100%;
+      @include flex($row,$btwen,$center);
+    }
+    .btnStart{
+      background-color: $coral;
+      border-color: $coral;
+      min-height: 56px;
+      margin: 40px auto;
+      &:hover{
+background-color: $basicWhite;
+        color: $coral;
+
+      }
+    }
+  }
+}

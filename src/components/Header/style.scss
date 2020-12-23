@@ -3,6 +3,9 @@
 
 header{
   position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 20;
   .mainMenu{
     @include flex($row,$btwen,$center);
     margin: 0 20px;

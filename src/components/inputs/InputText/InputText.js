@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {Form, Input} from "antd";
@@ -32,7 +32,7 @@ InputText.deafultProps = {
 };
 InputText.propTypes = {
     counter: PropTypes.number,
-    mode: PropTypes.oneOf(['primary','success','danger']),
+    mode: PropTypes.oneOf(['primary','success','danger', 'text']),
     name: PropTypes.oneOf(['Full Name', 'Stage Name']),
     className: PropTypes.string,
 };

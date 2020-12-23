@@ -1,0 +1,23 @@
+.inputVideoBlock h3 {
+  margin-bottom: 10px;
+}
+.inputVideoBlock .video {
+  width: 100%;
+  margin: 15px auto;
+}
+.inputVideoBlock .video .videoFrame {
+  width: 100%;
+}
+.inputVideoBlock .bgChoice {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.inputVideoBlock .bgChoice .item {
+  max-width: 116px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

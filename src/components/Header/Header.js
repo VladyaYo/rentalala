@@ -39,7 +39,6 @@ const user = (
     <Menu>
         <Menu.Item>
             <Popup type="registerForm"/>
-
         </Menu.Item>
         <Menu.Item>
             <Popup type="registerClientForm"/>
@@ -91,14 +90,17 @@ const Header = ({ className, mode }) => {
                 <div className="side">
                     <Link to="/"><Logo/></Link>
                     <ul className="mainMenu">
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <Link to="/">Home</Link>*/}
+                        {/*</li>*/}
                         <li>
                             <Link to="/profile-artist">Artist Profile</Link>
                         </li>
                         <li>
                             <Link to="/profile-client">Client profile</Link>
+                        </li>
+                        <li>
+                            <Link to="/waiting-room">Waiting room</Link>
                         </li>
                     </ul>
                     <Search className="search" placeholder="Search for..." onSearch={onSearch} />
