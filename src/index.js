@@ -10,16 +10,18 @@ import ProfileArtist from "./components/Profiles/ArtistProfile/ProfileArtist";
 import ClientProfile from "./components/Profiles/ClientProfile/ClientProfile";
 import Footer from "./components/Footer/Footer";
 import WaitingRoom from "./components/WaitingRoom/WaitingRoom";
+import LandingMain from "./components/LandingMain/LandingMain";
 
 const App = () => {
   return (
     <Router>
       <Header/>
-      <Switch>
-        <Route path="/profile-artist" component={ProfileArtist} />
-        <Route path="/profile-client" component={ClientProfile} />
-        <Route path="/waiting-room" component={WaitingRoom}/>
-      </Switch>
+        <Switch>
+          <Route path="/profile-artist" component={ProfileArtist} />
+          <Route path="/profile-client" component={ClientProfile} />
+          <Route path="/waiting-room" component={WaitingRoom}/>
+          <Route exact={true} path="/" component={LandingMain} />
+        </Switch>
       <Footer/>
     </Router>
   );

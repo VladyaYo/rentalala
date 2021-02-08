@@ -4,13 +4,17 @@
 header{
   position: sticky;
   top: 0;
-  background-color: #fff;
+  //background-color: #fff;
   z-index: 20;
+  a{
+    color: $brand1;
+  }
   .mainMenu{
     @include flex($row,$btwen,$center);
     margin: 0 20px;
     li{
       margin: 0 10px;
+
     }
 
   }
@@ -41,7 +45,7 @@ header{
       }
     }
     .dropDown{
-      color: #828282;
+      //color: #828282;
       display: flex;
       flex-direction: row;
       align-items: center;
