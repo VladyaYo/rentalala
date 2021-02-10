@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {Form, Input} from "antd";
 
-import './style.css';
+import './InputText.scss';
 const InputText = ({children, name, mode, className, ...props }) =>{
     const classNames = classnames(
         'input',

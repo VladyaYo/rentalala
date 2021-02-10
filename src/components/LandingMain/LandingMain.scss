@@ -1,0 +1,59 @@
+@import '../../styles/partials/vars';
+@import '../../styles/partials/flex';
+@import "../../styles/partials/typography";
+
+//typography
+h1{
+  @extend %h1landing;
+}
+h2{
+  @extend %h2landing;
+}
+h3{
+  @extend %h3landing;
+}
+h4{
+  @extend %h4;
+}
+h5{
+  @extend %h5 ;
+}
+p{
+  @extend %p;
+
+}
+
+.mainLanding{
+  .head{
+    background-image: url("../../Images/Rectangle 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 560px;
+    margin-top: -125px;
+    padding-top: 125px;
+    .text{
+      margin: 48px 0;
+      max-width: 460px;
+      .subHeading{
+        //font-family: $montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: $brand1;
+        margin: 12px 0;
+      }
+      p{
+        color: #fff;
+      }
+      button{
+        //max-width: ;
+      }
+    }
+  }
+  .categoriesSlider{
+    .container{
+      @include flex($row,$btwen,$center);
+    }
+  }
+}

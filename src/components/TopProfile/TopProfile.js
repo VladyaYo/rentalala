@@ -6,7 +6,7 @@ import { UploadOutlined } from '@ant-design/icons';
 
 
 
-import './style.css';
+import './TopProfile.scss';
 import Heading2 from "../typography/Heading2/Heading2";
 
 const props = {

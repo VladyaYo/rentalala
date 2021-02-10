@@ -2,7 +2,7 @@ import React from 'react';
 
 import Logo from "../Logo/Logo";
 
-import './style.css';
+import './Footer.scss';
 
 const Footer = () => (
     <footer className="footer">
@@ -45,7 +45,7 @@ const Footer = () => (
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms & Conditions</a>
             </div>
-            <div className="copyRights">© 2020 RenttALaLa</div>
+            <div className="copyRights">© 2020 RentALaLa</div>
         </div>
     </footer>
 );

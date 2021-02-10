@@ -1,36 +1,25 @@
 import React from 'react';
 import classnames from 'classnames';
-import { Button, Input, Menu, Dropdown  } from 'antd';
+import { Menu, Dropdown  } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 
 
 import Logo from '../../components/Logo/Logo'
-import './style.css'
-import {BrowserRouter as Router, Link} from "react-router-dom";
+import './Header.scss'
+import { Link} from "react-router-dom";
 import Popup from "../Popup/Popup";
 
-
-
-const { Search } = Input;
-
-const onSearch = value => console.log(value);
 
 const lang = (
     <Menu>
         <Menu.Item>
-            <a rel="noopener noreferrer" href="#en">
-                En
-            </a>
+            <p>En</p>
         </Menu.Item>
         <Menu.Item>
-            <a rel="noopener noreferrer" href="#de">
-               De
-            </a>
+            <p>De</p>
         </Menu.Item>
         <Menu.Item>
-            <a rel="noopener noreferrer" href="#ru">
-                Ru
-            </a>
+            <p>Ru</p>
         </Menu.Item>
     </Menu>
 );
@@ -47,45 +36,58 @@ const user = (
             <Popup type="loginForm"/>
         </Menu.Item>
         <Menu.Item danger>
-            <a rel="noopener noreferrer" href="#ru">
+            <a rel="noopener noreferrer">
                 Log Out
             </a>
         </Menu.Item>
     </Menu>
 );
-const mainMenu = (
-    <Menu>
-        <Menu.Item>
-            <a rel="noopener noreferrer" href="/artist-profile">
-                ArtistProfile
-            </a>
-        </Menu.Item>
-        <Menu.Item>
-            <a rel="noopener noreferrer" href="user/profile">
-                UserProfile
-            </a>
-        </Menu.Item>
-        <Menu.Item danger>
-            <a rel="noopener noreferrer" href="#ru">
-                ArtistProfile
-            </a>
-        </Menu.Item>
-    </Menu>
-);
+// const mainMenu = (
+//     <Menu>
+//         <Menu.Item>
+//             <a rel="noopener noreferrer" href="/artist-profile">
+//                 ProfileArtist
+//             </a>
+//         </Menu.Item>
+//         <Menu.Item>
+//             <a rel="noopener noreferrer" href="user/profile">
+//                 UserProfile
+//             </a>
+//         </Menu.Item>
+//         <Menu.Item danger>
+//             <a rel="noopener noreferrer" href="#ru">
+//                 ProfileArtist
+//             </a>
+//         </Menu.Item>
+//     </Menu>
+// );
 
 const Header = ({ className, mode }) => {
+    const [scroll, setScroll] = React.useState(0);
+
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+    };
+
+    React.useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
 
     const classNames = classnames(
         'header',
+        scroll < 100 ? "" : "sticky",
         {
             [`header--${mode}`]:Boolean(mode),
+
         },
         className
     );
+
     return (
         <header
             className={classNames}
-
         >
             <div className="container">
                 <div className="side">

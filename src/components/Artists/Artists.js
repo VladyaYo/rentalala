@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 
-// import './style.css'
+import './Artists.scss'
 import Artist from "../Artist/Artist";
 
 const artists = [

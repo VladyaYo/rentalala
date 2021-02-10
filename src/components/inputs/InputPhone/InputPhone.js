@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 
-import "./style.css";
+import "./InputPhone.scss";
 import {Form, Input, Select} from "antd";
 
 const InputPhone = ({ children, name, mode, className, ...props }) => {

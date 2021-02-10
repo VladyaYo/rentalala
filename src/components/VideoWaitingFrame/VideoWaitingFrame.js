@@ -4,7 +4,7 @@ import { DownOutlined } from '@ant-design/icons';
 import { Card, Menu, Dropdown } from 'antd';
 import examplePhoto from '../../Images/exemple_ph.jpg'
 
-import './style.css'
+import './VideoWaitingFrame.scss'
 
 const VideoWaitingFrame = () => {
     const cameraMenu = (

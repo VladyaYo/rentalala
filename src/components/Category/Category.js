@@ -1,5 +1,6 @@
 import React from "react"
 
+import './Сategory.scss'
 const Category = ({name, src}) => {
 return (
     <div className='item'

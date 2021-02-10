@@ -1,60 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/Rectangle 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/BookReading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Children.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Comedy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Cooking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/DJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Dance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Education.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Lectures.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/LiveEntertainment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/PersonalTraining.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/DJ’s-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/DJ’s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Dance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Lectures-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Lectures.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Personal training-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Personal training.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/SingersBands.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/categories/Theatre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Artist/Artist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Artists/Artists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/Categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Category/Category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_flex.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_vars.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/.sass-cache/b75a8f288290546d93093974762162b315700c29/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/55d5e5492273fe86b743a7acafbdcd2008c8cdc4/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_flex.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_vars.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingMain/LandingMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingMain/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Logo/.sass-cache/866c0aa7e1d55d9c8148caa2f184e19e40e84e00/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/typography/HeadingLights/HeadingLights.js" afterDir="false" />
+    <list default="true" id="c1db6be8-1435-4790-bc04-8f41710915b0" name="Default Changelist" comment="landing page start">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Category/Сategory.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/ProfileArtist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-BoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Philosopher-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_general.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/.sass-cache/9634433c2a74449ddd7fe0829bb1421c6b8c2dda/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/partials/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/DJ’s-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/DJ’s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Dance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Lectures-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Lectures.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Personal training-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Personal training.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa (Copy)/Singers &amp; Bands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/categories/Rent-A-LaLa.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutTopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutTopProfile/AboutTopProfile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Artist/Artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artist/Artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Artists/Artists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artists/Artists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/FormButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormButton/FormButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormButton/FormButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_flex.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_flex.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_vars.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_vars.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/.sass-cache/b75a8f288290546d93093974762162b315700c29/style.scssc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/55d5e5492273fe86b743a7acafbdcd2008c8cdc4/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_flex.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingMain/.sass-cache/81afebd03e33117b2fea5d8a37e0d6aa1f44bcb8/_vars.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingMain/LandingMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingMain/LandingMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingMain/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingMain/LandingMain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artist/Artist.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/.sass-cache/866c0aa7e1d55d9c8148caa2f184e19e40e84e00/style.scssc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MicrophoneCheck/MicrophoneCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/MicrophoneCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MicrophoneCheck/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MicrophoneCheck/MicrophoneCheck.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup/Popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileEvents/ProfileEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileEvents/ProfileEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileEvents/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileEvents/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileEvents/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileEvents/ProfileEvents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileFeedback/ProfileFeedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/ProfileFeedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileFeedback/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileFeedback/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileFeedback/ProfileFeedback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileLayout/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileLayout/ProfileLayout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileVideos/ProfileVideos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileVideos/ProfileVideos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileVideos/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileVideos/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileVideos/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileVideos/ProfileVideos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/ProfileArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ProfileArtist/ProfileArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ArtistProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Artists/Artists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientForm/RegisterClientForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/RegisterClientForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientForm/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterClientForm/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterClientForm/RegisterClientForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterFrom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterFrom/RegisterForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakersCheck/SpeakersCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/SpeakersCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakersCheck/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakersCheck/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakersCheck/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakersCheck/SpeakersCheck.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopProfile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopProfile/TopProfile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoWaitingFrame/VideoWaitingFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/VideoWaitingFrame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoWaitingFrame/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoWaitingFrame/VideoWaitingFrame.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaitingRoom/WaitingRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WaitingRoom/WaitingRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaitingRoom/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaitingRoom/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaitingRoom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WaitingRoom/WaitingRoom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputEmail/InputEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputEmail/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingHero/LandingHero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/InputPassLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassLogin/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingHero/LandingHero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPassword/InputPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPassword/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm/LoginForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputPhone/InputPhone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputPhone/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profiles/ClientProfile/ClientProfile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/InputText/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/InputText/InputText.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/Heading2/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/Heading2/Heading2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/HeadingLights/HeadingLights.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partials/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_general.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/partials/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partials/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +276,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -91,19 +302,19 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Profiles" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/inputs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/inputs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Profiles" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/inputs" />
     </key>
   </component>
@@ -142,8 +353,17 @@
       <workItem from="1609159018301" duration="598000" />
       <workItem from="1610053201197" duration="148000" />
       <workItem from="1610441374382" duration="663000" />
-      <workItem from="1612721749004" duration="23975000" />
+      <workItem from="1612721749004" duration="29686000" />
+      <workItem from="1612863356332" duration="19370000" />
     </task>
+    <task id="LOCAL-00001" summary="landing page start">
+      <created>1612795617027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612795617027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,8 +379,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="landing page start" />
+    <option name="LAST_COMMIT_MESSAGE" value="landing page start" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

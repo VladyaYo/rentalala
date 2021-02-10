@@ -7,7 +7,7 @@ import RegisterForm from "../RegisterFrom/RegisterForm";
 import LoginForm from "../LoginForm/LoginForm";
 import RegisterClientForm from "../RegisterClientForm/RegisterClientForm";
 
-import "./style.css";
+import "./Popup.scss";
 
 const Popup = ({ children, className, type, ...props }) => {
 

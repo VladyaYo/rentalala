@@ -2,7 +2,7 @@ import React  from 'react';
 
 import { Slider } from 'antd';
 
-import './style.css'
+import './SpeakersCheck.scss'
 
 
 const SpeakersCheck = () => {

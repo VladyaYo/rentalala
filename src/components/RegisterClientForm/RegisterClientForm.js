@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Form } from 'antd';
 
-import './style.css'
+import './RegisterClientForm.scss'
 
 import InputText from "../inputs/InputText/InputText";
 import InputEmail from "../inputs/InputEmail/InputEmail";
 import InputPhone from "../inputs/InputPhone/InputPhone";
 import InputPassword from "../inputs/InputPassword/InputPassword";
-import FormButton from "../Button/FormButton";
+import FormButton from "../FormButton/FormButton";
 import Heading2 from "../typography/Heading2/Heading2";
 
 const RegisterClientForm = ({ className, mode }) => {

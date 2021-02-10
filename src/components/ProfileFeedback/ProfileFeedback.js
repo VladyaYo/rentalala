@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Card, Button, Rate} from 'antd';
-import './style.css';
+import './ProfileFeedback.scss';
 
 const ProfileFeedback = ({ ...props }) =>{
     const { Meta } = Card;

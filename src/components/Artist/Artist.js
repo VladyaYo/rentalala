@@ -1,5 +1,6 @@
 import React from "react"
 
+import './Artist.scss'
 
 
 const Artist = ({name, src, id, url, eventPrice, privatePrice, confirmed}) => {

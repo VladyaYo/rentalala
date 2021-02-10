@@ -3,7 +3,7 @@ import React  from 'react';
 // import classnames from 'classnames';
 import { Card, Button } from 'antd';
 
-import './style.css'
+import './WaitingRoom.scss'
 
 import Heading2 from "../typography/Heading2/Heading2";
 import VideoWaitingFrame from "../VideoWaitingFrame/VideoWaitingFrame";

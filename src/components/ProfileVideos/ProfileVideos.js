@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Button} from 'antd';
-import './style.css';
+import './ProfileVideos.scss';
 import examplePhoto from '../../Images/exemple_ph.jpg'
 
 const ProfileVideos = ({ ...props }) =>{

@@ -1,7 +1,6 @@
 import React from 'react';
 import classnames from "classnames";
 
-import './style.css';
 
 const Logo = ({ className, mode }) => {
 
@@ -31,22 +30,22 @@ const Logo = ({ className, mode }) => {
                 </g>
                 <defs>
                     <linearGradient id="paint0_linear" x1="16.2637" y1="54.4159" x2="134.13" y2="54.4159" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#E9CB61"/>
-                        <stop offset="0.0391" stop-color="#D2AF47"/>
-                        <stop offset="0.0586" stop-color="#BC942F"/>
-                        <stop offset="0.168" stop-color="#DBB84A"/>
-                        <stop offset="0.3789" stop-color="#FEE16C"/>
-                        <stop offset="0.7891" stop-color="#9D7019"/>
-                        <stop offset="1" stop-color="#E3C052"/>
+                        <stop stopColor="#E9CB61"/>
+                        <stop offset="0.0391" stopColor="#D2AF47"/>
+                        <stop offset="0.0586" stopColor="#BC942F"/>
+                        <stop offset="0.168" stopColor="#DBB84A"/>
+                        <stop offset="0.3789" stopColor="#FEE16C"/>
+                        <stop offset="0.7891" stopColor="#9D7019"/>
+                        <stop offset="1" stopColor="#E3C052"/>
                     </linearGradient>
                     <linearGradient id="paint1_linear" x1="-0.0859283" y1="37.2477" x2="154.047" y2="37.2477" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#E9CB61"/>
-                        <stop offset="0.0391" stop-color="#D2AF47"/>
-                        <stop offset="0.0586" stop-color="#BC942F"/>
-                        <stop offset="0.168" stop-color="#DBB84A"/>
-                        <stop offset="0.3789" stop-color="#FEE16C"/>
-                        <stop offset="0.7891" stop-color="#9D7019"/>
-                        <stop offset="1" stop-color="#E3C052"/>
+                        <stop stopColor="#E9CB61"/>
+                        <stop offset="0.0391" stopColor="#D2AF47"/>
+                        <stop offset="0.0586" stopColor="#BC942F"/>
+                        <stop offset="0.168" stopColor="#DBB84A"/>
+                        <stop offset="0.3789" stopColor="#FEE16C"/>
+                        <stop offset="0.7891" stopColor="#9D7019"/>
+                        <stop offset="1" stopColor="#E3C052"/>
                     </linearGradient>
                 </defs>
             </svg>

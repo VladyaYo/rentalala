@@ -1,7 +1,8 @@
 import React from 'react';
 import {Card, Button} from 'antd';
-import './style.css';
+
 import examplePhoto from '../../Images/exemple_ph.jpg'
+import './ProfileEvents.scss';
 
 const ProfileEvents = ({ ...props }) =>{
 

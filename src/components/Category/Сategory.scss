@@ -1,0 +1,16 @@
+@import "../../styles/partials/typography";
+@import "../../styles/partials/flex";
+
+.item{
+  @include flex($col,$btwen,$center);
+  opacity: .7;
+  transition: .3s ease all;
+  &:hover{
+    opacity: 1;
+  }
+  h5{
+    @extend %h5;
+    text-align: center;
+    color: #fff;
+  }
+}

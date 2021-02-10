@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 
-import "./style.css";
+import "./InputPassLogin.scss";
 import {Form, Input} from "antd";
 
 const InputPassLogin = ({ children, name, mode, className, ...props }) => {

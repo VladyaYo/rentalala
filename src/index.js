@@ -3,14 +3,14 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import "antd/dist/antd.css";
-import "./styles/style.css";
+import "./styles/style.scss";
 
 import Header from "./components/Header/Header";
-import ProfileArtist from "./components/Profiles/ArtistProfile/ProfileArtist";
+import ProfileArtist from "./components/Profiles/ProfileArtist/ProfileArtist";
 import ClientProfile from "./components/Profiles/ClientProfile/ClientProfile";
-import Footer from "./components/Footer/Footer";
 import WaitingRoom from "./components/WaitingRoom/WaitingRoom";
 import LandingMain from "./components/LandingMain/LandingMain";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 
 import classnames from 'classnames'
 
-import './style.css';
+import './ProfileLayout.scss';
 
 import ProfileEvents from "../ProfileEvents/ProfileEvents";
 import ProfileVideos from "../ProfileVideos/ProfileVideos";

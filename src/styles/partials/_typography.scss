@@ -1,0 +1,149 @@
+@import "~sass-rem";
+
+$philosopher: 'Philosopher', sans-serif;
+$montserrat: 'Montserrat', sans-ferif;
+
+%h1landing{
+  font-family: $philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(48px);
+  line-height: 120%;
+}
+
+%h2landing{
+  font-family: $philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(44px);
+  line-height: 120%;
+}
+%h3landing{
+  font-family: $philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(32px);
+  line-height: 120%;
+}
+%h1{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(40px);
+  line-height: 120%;
+}
+%h2reg{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(34px);
+  line-height: 120%;
+}
+%h2{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(34px);
+  line-height: 120%;
+}
+%h3{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(30px);
+  line-height: 120%;
+}
+%h4{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(23px);
+  line-height: 120%;
+}
+%h5bold{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(20px);
+  line-height: 120%;
+}
+%h5semiBold{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: rem(18px);
+  line-height: 120%;
+}
+%h5{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(18px);
+  line-height: 120%;
+}
+%pBold{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(16px);
+  line-height: 120%;
+}
+%pBold{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(16px);
+  line-height: 120%;
+}
+%p{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(16px);
+  line-height: 20px;
+}
+%pReg{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+}
+%info{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+}
+%infoBold{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: rem(14px);
+  line-height: 130%;
+}
+%label{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(12px);
+  line-height: 120%;
+}
+%caption{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(12px);
+  line-height: 120%;
+  letter-spacing: 0.03em;
+}
+%link{
+  //font-family: $montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(12px);
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
