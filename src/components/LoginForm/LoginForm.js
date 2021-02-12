@@ -6,7 +6,6 @@ import { Form } from 'antd';
 import './LoginForm.scss'
 
 import InputEmail from "../inputs/InputEmail/InputEmail";
-import InputPhone from "../inputs/InputPhone/InputPhone";
 import FormButton from "../FormButton/FormButton";
 import Heading2 from "../typography/Heading2/Heading2";
 import InputPassLogin from "../inputs/InputPassLogin/InputPassLogin";

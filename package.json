@@ -18,6 +18,7 @@
     "react-scripts": "4.0.1",
     "sass-rem": "^2.0.1",
     "swiper": "^6.4.11",
+    "video-react": "^0.14.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

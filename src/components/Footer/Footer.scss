@@ -1,24 +1,44 @@
 @import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+
 footer {
+  background-color: $black;
+  background-image: url("../../Images/DancingPeople.jpg");
+  position: relative;
+  padding: 20px 0;
+
+  &:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(24, 24, 24, .9);
+
+  }
   .container {
     @include flex($row, $btwen, $start);
     padding: 44px 0 15px;
+    z-index: 10;
+    position: relative;
+
     .side {
       @include flex($row, $btwen, $start);
       .column {
         @include flex($col, $start, $start);
-        margin: 0 20px 0 0;
+        margin: 0 20px 50px 0;
         h4 {
-          color: #828282;
+          color: $white;
           font-size: 18px;
           font-weight: 600;
           margin-bottom: 16px;
         }
         a {
-          color: #828282;
           font-size: 16px;
           line-height: 24px;
           margin: 0 0 11px;
+          color: $white;
         }
       }
     }
@@ -28,11 +48,16 @@ footer {
     width: 90%;
     max-width: 1170px;
     margin: auto;
+    z-index: 10;
+    position: relative;
     a {
-      color: #828282;
+      color: $lightGray;
       font-size: 14px;
       line-height: 20px;
       margin: 0 0 10px 11px;
+    }
+    .copyRights{
+      color: $lightGray;
     }
   }
 }

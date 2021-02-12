@@ -6,7 +6,7 @@
   padding: 40px;
   h5{
     font-weight: bold;
-    color:$basicGray;
+    color:$gray;
   }
   h3{
     font-weight: bold;
@@ -15,7 +15,7 @@
     color:$black;
   }
   .ant-dropdown-link{
-color:$basicDarkGray
+color:$darkGray
   }
   .heading{
     max-width: 590px;
@@ -37,7 +37,7 @@ color:$basicDarkGray
       min-height: 56px;
       margin: 40px auto;
       &:hover{
-background-color: $basicWhite;
+background-color: $white;
         color: $coral;
 
       }

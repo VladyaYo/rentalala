@@ -1,0 +1,33 @@
+@import "../../styles/partials/vars";
+@import "~video-react/styles/scss/video-react";
+.videoSlider{
+.video-react{
+  .video-react-big-play-button{
+    border-radius: 50%;
+    height: 3em;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    &:before{
+      content: url("data:image/svg+xml,%3Csvg width='22' height='29' viewBox='0 0 22 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.25 0.991943V28.1013L2.16406 26.8513L21.3047 14.5466L2.16406 2.24194L0.25 0.991943ZM2.75 5.56226L16.6953 14.5466L2.75 23.531V5.56226Z' fill='%23FCFCFC'/%3E%3C/svg%3E%0A");
+      margin: auto;
+      bottom: 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+    }
+}
+}
+  .text{
+    background-color: $black;
+    h3{
+      color: $white;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}

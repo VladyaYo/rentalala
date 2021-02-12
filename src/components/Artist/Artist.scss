@@ -1,0 +1,79 @@
+@import "../../styles/partials/flex";
+@import "../../styles/partials/vars";
+@import "../../styles/partials/typography";
+
+
+.artistsSlider{
+  .swiper-slide{
+    max-width: 250px;
+    padding: 0.1rem;
+    position: relative;
+    background: linear-gradient(180deg, #D1B868 3.42%, #F5EAA3 27.13%, #B29040 118.02%, #F6EDA9 140.94%, #D7C37C 152.79%);
+
+  }
+  .item{
+    @include flex($col,$start,$start);
+    background-color: $black;
+    .image{
+      position: relative;
+      min-height: 120px;
+      img{
+        filter: brightness(50%);
+      }
+      .eventsLabel{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        background-color: $red;
+        color: $white;
+        padding: 3px 8px;
+      }
+      .onlineLabel{
+        position: absolute;
+        left: 5px;
+        top: 44px;
+        background-color: $green;
+        padding: 3px 7px;
+        color: $white;
+        border-radius: 300px;
+
+      }
+      .categories{
+        position: absolute;
+        left: 5px;
+        bottom: 10px;
+        @include flex($row,$start,$center);
+        .category{
+          color: $white;
+          padding: 3px 5px;
+          background-color: $darkGray;
+          margin: 0 5px 0 0;
+          border-radius: 3px;
+
+        }
+      }
+    }
+    .text{
+      padding: 10px 12px 15px;
+      color: $white;
+      width: 100%;
+      p{
+        padding: 0 0 5px;
+        &.name{
+          @extend %pBold;
+        }
+        &.price{
+          @extend %caption;
+        }
+        span{
+          font-size: 1rem;
+          color: $yellow;
+        }
+      }
+      .line{
+        @include flex($row,$btwen,$center);
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 @import "../../styles/partials/typography";
 @import "../../styles/partials/flex";
-
+.categoriesSlider{
 .item{
   @include flex($col,$btwen,$center);
   opacity: .7;
@@ -13,4 +13,4 @@
     text-align: center;
     color: #fff;
   }
-}
+}}

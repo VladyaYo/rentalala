@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Category from "../Category/Category";
-import ProfileEvents from "../ProfileEvents/ProfileEvents";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, {Scrollbar } from 'swiper';
 
 import 'swiper/swiper.scss';
-import './Categories.scss'
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+import './Categories.scss'
+
 
 const categories = [
     {
@@ -76,8 +76,8 @@ const categories = [
 
 ]
 
-const Categories = (mode) => {
-    SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+const Categories = () => {
+    SwiperCore.use([Scrollbar]);
     return (
         <section className="categoriesSlider">
             <div className="container">

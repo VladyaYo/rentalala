@@ -6,6 +6,7 @@ import { Modal, Button } from "antd";
 import RegisterForm from "../RegisterFrom/RegisterForm";
 import LoginForm from "../LoginForm/LoginForm";
 import RegisterClientForm from "../RegisterClientForm/RegisterClientForm";
+import PrivateShowBookingForm from "../PrivateShowBookingForm/PrivateShowBookingForm"
 
 import "./Popup.scss";
 
@@ -85,7 +86,25 @@ const Popup = ({ children, className, type, ...props }) => {
               <LoginForm mode="login" />
             </Modal>
           </>
-        ))}
+        ))
+      ||
+      (type === "privateBookingForm" && (
+          <>
+            <Button type="text" onClick={showForm}>
+              Open Private Show Booking
+            </Button>
+            <Modal
+                visible={isModalVisible}
+                onOk={handleOk}
+                onCancel={handleCancel}
+                className={classNames}
+                footer={null}
+                {...props}
+            >
+              <PrivateShowBookingForm mode="privateBookingForm" />
+            </Modal>
+          </>
+      ))}
     </>
   );
 };

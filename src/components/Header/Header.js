@@ -35,6 +35,9 @@ const user = (
         <Menu.Item>
             <Popup type="loginForm"/>
         </Menu.Item>
+        <Menu.Item>
+            <Popup type="privateBookingForm"/>
+        </Menu.Item>
         <Menu.Item danger>
             <a rel="noopener noreferrer">
                 Log Out
